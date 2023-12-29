@@ -11,6 +11,15 @@
 		296694632B3DAD1C00FA6E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296694622B3DAD1C00FA6E49 /* ContentView.swift */; };
 		296694652B3DAD1D00FA6E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296694642B3DAD1D00FA6E49 /* Assets.xcassets */; };
 		296694692B3DAD1D00FA6E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296694682B3DAD1D00FA6E49 /* Preview Assets.xcassets */; };
+		296694732B3DAD9F00FA6E49 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296694722B3DAD9F00FA6E49 /* SplashScreen.swift */; };
+		296694762B3DB0A200FA6E49 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296694752B3DB0A200FA6E49 /* HomeScreen.swift */; };
+		2966947A2B3DBE2E00FA6E49 /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296694792B3DBE2E00FA6E49 /* OnBoardingScreen.swift */; };
+		2966947D2B3DC0BB00FA6E49 /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966947C2B3DC0BB00FA6E49 /* CustomExtension.swift */; };
+		296694802B3DD01F00FA6E49 /* OnBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966947F2B3DD01F00FA6E49 /* OnBoard.swift */; };
+		29E429A32B3ED66100D5D6E7 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E429A22B3ED66100D5D6E7 /* LoginScreen.swift */; };
+		29E429A62B3ED6E100D5D6E7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E429A52B3ED6E100D5D6E7 /* PrimaryButton.swift */; };
+		29E429A92B3ED96800D5D6E7 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E429A82B3ED96800D5D6E7 /* UnderlinedTextField.swift */; };
+		29E429AB2B3EF1BE00D5D6E7 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E429AA2B3EF1BE00D5D6E7 /* SignUpScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		296694642B3DAD1D00FA6E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296694662B3DAD1D00FA6E49 /* TransferMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TransferMe.entitlements; sourceTree = "<group>"; };
 		296694682B3DAD1D00FA6E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		296694722B3DAD9F00FA6E49 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		296694752B3DB0A200FA6E49 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		296694792B3DBE2E00FA6E49 /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		2966947C2B3DC0BB00FA6E49 /* CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; };
+		2966947F2B3DD01F00FA6E49 /* OnBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoard.swift; sourceTree = "<group>"; };
+		29E429A22B3ED66100D5D6E7 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		29E429A52B3ED6E100D5D6E7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		29E429A82B3ED96800D5D6E7 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		29E429AA2B3EF1BE00D5D6E7 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 		2966945F2B3DAD1C00FA6E49 /* TransferMe */ = {
 			isa = PBXGroup;
 			children = (
+				2966947B2B3DC0A500FA6E49 /* Core */,
+				296694772B3DBCD900FA6E49 /* Features */,
 				296694602B3DAD1C00FA6E49 /* TransferMeApp.swift */,
 				296694622B3DAD1C00FA6E49 /* ContentView.swift */,
 				296694642B3DAD1D00FA6E49 /* Assets.xcassets */,
@@ -67,6 +87,85 @@
 				296694682B3DAD1D00FA6E49 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2966946F2B3DAD5F00FA6E49 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				296694722B3DAD9F00FA6E49 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		296694742B3DB08E00FA6E49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				296694752B3DB0A200FA6E49 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		296694772B3DBCD900FA6E49 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				29E429A12B3ED65000D5D6E7 /* Authentication */,
+				296694782B3DBE1F00FA6E49 /* OnBoarding */,
+				296694742B3DB08E00FA6E49 /* Home */,
+				2966946F2B3DAD5F00FA6E49 /* SplashScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		296694782B3DBE1F00FA6E49 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				2966947E2B3DD00D00FA6E49 /* models */,
+				296694792B3DBE2E00FA6E49 /* OnBoardingScreen.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		2966947B2B3DC0A500FA6E49 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				29E429A72B3ED95500D5D6E7 /* extensions */,
+				29E429A42B3ED6CD00D5D6E7 /* Widgets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2966947E2B3DD00D00FA6E49 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2966947F2B3DD01F00FA6E49 /* OnBoard.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		29E429A12B3ED65000D5D6E7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				29E429A22B3ED66100D5D6E7 /* LoginScreen.swift */,
+				29E429AA2B3EF1BE00D5D6E7 /* SignUpScreen.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		29E429A42B3ED6CD00D5D6E7 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				29E429A52B3ED6E100D5D6E7 /* PrimaryButton.swift */,
+				29E429A82B3ED96800D5D6E7 /* UnderlinedTextField.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		29E429A72B3ED95500D5D6E7 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2966947C2B3DC0BB00FA6E49 /* CustomExtension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2966947D2B3DC0BB00FA6E49 /* CustomExtension.swift in Sources */,
+				296694762B3DB0A200FA6E49 /* HomeScreen.swift in Sources */,
+				29E429AB2B3EF1BE00D5D6E7 /* SignUpScreen.swift in Sources */,
+				29E429A62B3ED6E100D5D6E7 /* PrimaryButton.swift in Sources */,
+				296694732B3DAD9F00FA6E49 /* SplashScreen.swift in Sources */,
 				296694632B3DAD1C00FA6E49 /* ContentView.swift in Sources */,
+				29E429A92B3ED96800D5D6E7 /* UnderlinedTextField.swift in Sources */,
 				296694612B3DAD1C00FA6E49 /* TransferMeApp.swift in Sources */,
+				29E429A32B3ED66100D5D6E7 /* LoginScreen.swift in Sources */,
+				2966947A2B3DBE2E00FA6E49 /* OnBoardingScreen.swift in Sources */,
+				296694802B3DD01F00FA6E49 /* OnBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +382,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TransferMe;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,7 +393,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -312,6 +421,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TransferMe;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,7 +432,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;

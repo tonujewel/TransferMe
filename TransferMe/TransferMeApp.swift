@@ -11,7 +11,8 @@ import SwiftUI
 struct TransferMeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            /*SplashScreen()*/
+            OnBoardingScreen()
         }
     }
 }
